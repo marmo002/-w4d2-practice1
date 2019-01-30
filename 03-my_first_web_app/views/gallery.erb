@@ -1,1 +1,4 @@
 <h1>Welcome to the gallery</h1>
+<% 25.times do |i| %>
+  <img src="https://picsum.photos/200/300?image=<%= i * rand(10) %>" alt="">
+<% end %>
